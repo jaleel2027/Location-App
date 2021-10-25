@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Lavender"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/DeepPink"
+        android:layout_marginTop="150dp"
+        android:text="Hi There!"/>
+
+
+    <EditText
+        android:id="@+id/id_name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@drawable/et_custom"
+        android:inputType="textPersonName"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+
+        android:hint="Enter Name" />
+
+
+    <EditText
+        android:id="@+id/id_Password"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:background="@drawable/et_custom"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:hint="Enter Password" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_custom"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="10dp"
+        android:text="login" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Don't Have Account Yet ?"/>
+
+    <TextView
+        android:id="@+id/id_regHere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Here"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/custom_back"
+        android:textColor="@color/DarkTurquoise"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
